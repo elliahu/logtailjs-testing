@@ -22,5 +22,5 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Install logtail
-        run: npm install @logtail/browser @logtail/bunyan @logtail/bunyan @logtail/core @logtail/js @logtail/koa @logtail/node @logtail/tools @logtail/types @logtail/winston
+        run: npm install @logtail/browser @logtail/bunyan @logtail/bunyan @logtail/core @logtail/js @logtail/koa @logtail/node @logtail/tools @logtail/types @logtail/winston @types/koa @types/bunyan nock
       - run: npm test
